@@ -9,8 +9,7 @@
   background-color: #fff;
   position: fixed;
   z-index: 100;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0;
 }
 
 .inner {
@@ -30,20 +29,20 @@
 
 .header-bottom {
   font-size: 12px;
+  height: 50%;
   padding: 14px 12px;
   color: #fff;
   background-color: #74cfae;
   text-decoration:none;
 }
 
-.header-bottom:hover{
-  color:#333;
+.header-bottom:hover {
+  transition: 0.3s;
+  color: #333;
 }
 
-
 #title {
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding: 250px 0 ;
   background-color: #f2f2f2;
 }
 
@@ -56,7 +55,7 @@
 .mainTitle h2 {
   font-size: 30px;
   color: #c0c0c0;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 #Green {
@@ -99,8 +98,7 @@
 }
 
 #portfolio {
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 0 70px 0;
   background-color: #f2f2f2;
 }
 
@@ -125,17 +123,18 @@
 }
 
 .grid img:hover {
+  transition: 0.3s;
   opacity: 1;
 }
 
 .description {
-  padding-top: 90px;
+  margin-top: 90px;
   display: flex;
 }
 
 .dummyText {
   width: 70%;
-  padding-right: 90px;
+  margin-right: 90px;
 }
 
 .btn-theme {
@@ -156,8 +155,7 @@
 
 #skills {
   background-color: #333;
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding: 70px 0 100px 0;
 }
 
 .skillTitle {
@@ -171,11 +169,11 @@
 }
 
 .skillPra {
-  padding-right: 180px;
+  margin-right: 180px;
 }
 
 .skillPra p {
-  padding-top: 10px;
+  margin-top: 10px;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -183,8 +181,7 @@
 
 #sns {
   background-color: #f2f2f2;
-  padding-top:200px;
-  padding-bottom:200px;
+  padding: 200px 0;
 }
 
 .sns-contents {
