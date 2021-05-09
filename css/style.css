@@ -53,26 +53,30 @@ h2 {
   font-size: 24px;
 }
 
-#title {
-  padding-top: 265px;
+main {
+  padding-top: 15px;
+}
+
+.title {
+  padding-top: 250px;
   padding-bottom: 250px;
   background-color: #f2f2f2;
 }
 
-.mainTitle h1 {
+.title h1 {
   font-size: 90px;
   font-weight: 700;
   color:#74cfae;
 
 }
 
-.mainTitle p {
+.title p {
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
 }
 
-#Green {
+.Green {
   background-color: #74cfae;
   padding-top: 50px;
   margin-bottom: 0px;
@@ -106,17 +110,14 @@ h2 {
   font-size: 20px;
 }
 
-#portfolio {
+.portfolio {
   padding: 60px 0 70px 0;
   background-color: #f2f2f2;
   width: 100%;
 }
 
-.mt {
-  margin-top: 40px;
-}
-
 .work {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 100px;
@@ -127,23 +128,21 @@ h2 {
   max-width: 100%;
   height: auto;
   transition: 0.3s;
-}
-
-.grid img {
   opacity: .7;
 }
 
-.grid img:hover {
+.work img:hover {
   opacity: 1;
 }
 
 .description {
   margin-top: 90px;
   display: flex;
+  justify-content: center;
 }
 
 .dummyText {
-  width: 70%;
+  width:550px;
   margin-right: 90px;
 }
 
@@ -151,6 +150,7 @@ h2 {
   color: #fff;
   background-color: #74cfae;
   border-color: transparent;
+  text-decoration:none;
   transition: 0.3s;
 }
 
@@ -163,19 +163,19 @@ h2 {
   padding: 14px 20px;
 }
 
-#skills {
+.skills {
   background-color: #333;
   padding-top: 70px;
   padding-bottom: 100px;
   width: 100%;
 }
 
-.skillTitle {
-  margin-bottom: 70px;
+.skills h2 {
   color: #fff;
 }
 
 .mainSkill {
+  margin-top: 70px;
   display: flex;
   justify-content: center;
 }
@@ -188,10 +188,6 @@ ul.mainSkill li:first-child {
   margin-left: 0px;
 }
 
-.skillPra img {
-  vertical-align: center;
-}
-
 .skillPra figcaption {
   margin-top: 10px;
   color: #fff;
@@ -199,7 +195,7 @@ ul.mainSkill li:first-child {
   font-weight: 400;
 }
 
-#sns {
+.sns {
   background-color: #f2f2f2;
   padding: 200px 0;
   width: 100%;
@@ -232,7 +228,7 @@ ul.mainSkill li:first-child {
   background-color: #74cfae;
 }
 
-.footer-text {
+.footer-inner {
   display: flex;
   justify-content: flex-end;
 }
