@@ -54,7 +54,7 @@ h2 {
 }
 
 main {
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .title {
@@ -99,13 +99,13 @@ main {
 .greenTitle h2 {
   color: #fff;
   font-weight: 400;
-  margin-bottom: 35px;
   margin-top: 50px;
 }
 
 .greenTitle p{
   width: 650px;
   color:#fff;
+  margin-top: 35px;
   font-weight: 400;
   font-size: 20px;
 }
@@ -122,6 +122,10 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 100px;
   grid-row-gap: 80px;
+}
+
+.work a {
+  display: inline-block;
 }
 
 .work img {
@@ -143,7 +147,6 @@ main {
 
 .dummyText {
   width:550px;
-  margin-right: 90px;
 }
 
 .btn-theme {
@@ -151,6 +154,7 @@ main {
   background-color: #74cfae;
   border-color: transparent;
   text-decoration:none;
+  margin-left:90px;
   transition: 0.3s;
 }
 
@@ -164,7 +168,7 @@ main {
 }
 
 .skills {
-  background-color: #333;
+  background-color: #4e4e4e;
   padding-top: 70px;
   padding-bottom: 100px;
   width: 100%;
@@ -212,6 +216,10 @@ ul.mainSkill li:first-child {
 
 .sns-icon:hover {
   background-color: #fff;
+}
+
+.sns-icon a {
+  display: inline-block;
 }
 
 .sns-icon i {
