@@ -18,6 +18,10 @@
   margin: 0 auto;
 }
 
+a {
+  display: inline-block;
+}
+
 .header-inner {
   display: flex;
   justify-content: space-between;
@@ -54,7 +58,7 @@ h2 {
 }
 
 main {
-  padding-top: 30px;
+  padding-top: 78px;
 }
 
 .title {
@@ -122,11 +126,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 100px;
   grid-row-gap: 80px;
-}
-
-.work a {
-  display: inline-block;
-}
+}s
 
 .work img {
   max-width: 100%;
@@ -211,6 +211,7 @@ ul.mainSkill li:first-child {
 }
 
 .sns-icon {
+  width: 185px;
   transition: 0.3s;
 }
 
@@ -218,12 +219,8 @@ ul.mainSkill li:first-child {
   background-color: #fff;
 }
 
-.sns-icon a {
-  display: inline-block;
-}
-
 .sns-icon i {
-  width: 185px;
+  
   color: #74cfae;
   font-size: 3rem;
   padding: 15px;
