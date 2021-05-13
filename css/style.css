@@ -122,10 +122,25 @@ main {
 
 .work {
   margin-top: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 100px;
-  grid-row-gap: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work li {
+  margin-left: 100px;
+}
+
+.work li:first-child {
+  margin-left: 0;
+}
+
+.work li:nth-child(4) {
+  margin-left: 0;
+}
+
+.work li:nth-child(n+4) {
+  margin-top: 80px;
 }
 
 .work img {
@@ -149,12 +164,15 @@ main {
   width:550px;
 }
 
+.contact {
+  margin-left:90px;
+}
+
 .btn-theme {
   color: #fff;
   background-color: #74cfae;
   border-color: transparent;
   text-decoration:none;
-  margin-left:90px;
   transition: 0.3s;
 }
 
@@ -220,7 +238,7 @@ ul.mainSkill li:first-child {
 }
 
 .sns-icon a {
-  width: 185px;
+  width: 185px　　;
 }
 
 .sns-icon i {
